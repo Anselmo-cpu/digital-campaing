@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campaña: Redes Sociales y Adicción al Celular</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="mark">RC</div>
+      <div class="logo-text">
+        <div class="title">Campaña: Redes & Adicción</div>
+        <div class="subtitle">Proyecto de Tecnología — Integrantes: Abigail, Valeria, Delfina y Anselmo</div>
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="#stats">Estadísticas</a>
+      <a href="#hook">Modelo Hook</a>
+      <a href="#tips">Consejos</a>
+      <a href="#interactive" class="chip">Haz la prueba</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>¿Por qué no podemos dejar el celular?</h1>
+        <p class="lead">Campaña digital de concientización sobre el uso responsable del celular y el impacto de las redes sociales. Explicamos el <strong>Modelo Hook</strong>, mostramos estadísticas locales y ofrecemos estrategias para reducir la dependencia.</p>
+        <a class="cta" href="#interactive">Comenzar la prueba</a>
+      </div>
+      <aside class="stats-card" id="stats">
+        <!-- Estadísticas -->
+        <div class="stat">
+          <div class="num" id="c1">36%</div>
+          <div class="label">Buenos Aires: admite problemas</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="c2">34%</div>
+          <div class="label">Menores >6 h por día</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="c3">32%</div>
+          <div class="label">Afecta rendimiento escolar</div>
+        </div>
+        <div class="stat">
+          <div class="num" id="c4">95%</div>
+          <div class="label">Chicos con celular propio</div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="hook" class="hook-section">
+      <h2>Modelo Hook — Cómo fomentan la adicción las apps</h2>
+      <div class="grid-4">
+        <div class="hook">
+          <h3>Disparador 🔔</h3>
+          <p>Notificaciones y alertas que empujan a revisar.</p>
+        </div>
+        <div class="hook">
+          <h3>Acción 🤳</h3>
+          <p>Abrir, deslizar o interactuar con la app.</p>
+        </div>
+        <div class="hook">
+          <h3>Recompensa variable ⭐</h3>
+          <p>Likes, mensajes o contenido impredecible que mantiene la atención.</p>
+        </div>
+        <div class="hook">
+          <h3>Inversión 💬</h3>
+          <p>Tiempo, esfuerzo y datos que aumentan la probabilidad de volver.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="interactive" class="interactive-section">
+      <h2>Haz la prueba — estimá tu riesgo</h2>
+      <label for="hours">Horas por día: <span id="hoursLabel">3</span> h</label>
+      <input id="hours" type="range" min="0" max="16" value="3">
+      <div class="result" id="riskBox">
+        <strong id="riskTitle">Riesgo Bajo</strong>
+        <p id="riskText">Mantienes hábitos saludables. Si aumentás las horas considerá revisar los consejos.</p>
+      </div>
+    </section>
+
+    <section id="tips" class="tips-section">
+      <h2>Consejos y estrategias</h2>
+      <ul>
+        <li>Programá horarios sin notificaciones y no usar el celular 1 hora antes de dormir.</li>
+        <li>Transformá notificaciones en acciones conscientes (revisar solo 3 veces al día).</li>
+        <li>Usá bloqueadores de apps y modo "focus" durante tareas de estudio.</li>
+        <li>Reflexioná sobre la inversión: ¿qué ganás al publicar? ¿vale el tiempo invertido?</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho por Abigail Utrera, Valeria Soto, Delfina Sum y Anselmo Castellanos — Trabajo Integrador Tecnología</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
