@@ -82,6 +82,30 @@ input[type=range] { width: 100%; margin-top: 8px; margin-bottom: 16px; }
 .tips-section { background: var(--card); padding: 16px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.05); }
 .tips-section ul { list-style: disc; margin-left: 16px; color: var(--muted); }
 
+/* ===== Proceso y bibliografía ===== */
+.process-section, .sources-section {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.process-section h2, .sources-section h2 {
+  margin-bottom: 12px;
+  color: var(--accent);
+  font-size: 1.6rem;
+}
+.sources-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.sources-section li {
+  margin-bottom: 6px;
+}
+.sources-section a {
+  color: var(--accent-light);
+  text-decoration: underline;
+}
+
 /* ===== Footer ===== */
 footer { text-align: center; padding: 16px; color: var(--muted); font-size: 13px; }
 
@@ -99,6 +123,6 @@ footer { text-align: center; padding: 16px; color: var(--muted); font-size: 13px
   .cta { width: 100%; text-align: center; }
   input[type=range] { width: 100%; }
   nav a { flex: 1 1 100%; text-align: center; padding: 6px 0; }
-  .interactive-section, .tips-section { padding: 12px; }
+  .interactive-section, .tips-section, .process-section, .sources-section { padding: 12px; }
   .stats-card { padding: 12px; }
 }
